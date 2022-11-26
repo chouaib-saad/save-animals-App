@@ -12,3 +12,6 @@
  
 ## Run
 Open the project in Android Studio, connect the virtual machine or device, and run
+
+## more details here :
+https://chouaib-saad.github.io/portfolio/portfolio-details_saveanimals.html
