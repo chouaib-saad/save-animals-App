@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/aladin</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alegreya_sc_black_italic</item>
+        <item>@font/antic</item>
+        <item>@font/atomic_age</item>
+        <item>@font/baloo</item>
+        <item>@font/bungee</item>
+        <item>@font/muli</item>
+        <item>@font/muli_extralight</item>
+    </array>
+</resources>

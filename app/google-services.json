@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361415510221",
+    "project_id": "save-animals-77db4",
+    "storage_bucket": "save-animals-77db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361415510221:android:85c66b38de5c8ac8370184",
+        "android_client_info": {
+          "package_name": "com.example.saveanimals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361415510221-6co9gh2gnlo6jrenood97t31n4af5ed9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ3yj3GXomkrtckT9wdrDM3luWKQ9R7DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361415510221-6co9gh2gnlo6jrenood97t31n4af5ed9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

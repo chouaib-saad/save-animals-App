@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saveanimals">
+
+    <uses-permission android:name="android.     " />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaveAnimals">
+        <activity
+            android:name=".password_reinitialisation"
+            android:exported="false" />
+        <activity
+            android:name=".items.Events"
+            android:exported="false"
+            android:theme="@style/MyActionBar" />
+        <activity
+            android:name=".items.NumUrg"
+            android:exported="false" />
+        <activity
+            android:name=".items.OrgsSocial"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".items.Conseils"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".items.ContactNs"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".items.Profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".items.Veterenaires"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InscValider"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDR3MOR-6BOPvCUEUFoqrHrQwuVlQl6HGA" />
+    </application>
+
+</manifest>

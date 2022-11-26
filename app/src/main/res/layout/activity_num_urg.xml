@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".items.NumUrg"
+    android:background="@drawable/num_urg_bg">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Widget.Support.CoordinatorLayout">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/num_urg_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#F3D90A"
+            app:expandedTitleMarginStart="5dp"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="@string/appel">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="0dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/call_urg_bg2"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@drawable/layout_bg2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|top"
+            android:background="@drawable/round_corners2"
+            android:padding="6dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginHorizontal="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vous_pouvez_demander_l_aide_de_ces_organisations"
+                android:gravity="start"
+                android:textSize="20sp"
+                android:fontFamily="@font/baloo"
+                android:layout_marginVertical="25dp"/>
+            <LinearLayout
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/black2"
+                    android:text="@string/association_pat"
+                    android:fontFamily="@font/bungee"
+                    android:includeFontPadding="false"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="@color/green"
+                    android:text="+216 53334543"
+                    android:fontFamily="cursive"
+                    android:includeFontPadding="false"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="25dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/black2"
+                android:text="@string/sos_animaux_tunisie"
+                android:fontFamily="@font/bungee"
+                android:includeFontPadding="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:textColor="@color/green"
+                android:text="+216 25328328"
+                android:fontFamily="cursive"
+                android:includeFontPadding="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="55dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/societe_chiens"
+                android:textColor="@color/black2"
+                android:textSize="17dp"
+                android:fontFamily="@font/bungee"
+                android:includeFontPadding="false"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textSize="11dp"
+                android:textColor="@color/green"
+                android:text="+216 52245961"
+                android:fontFamily="cursive"
+                android:includeFontPadding="false"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/ic_call_sos"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="center_horizontal|bottom"
+        app:fabSize="normal"
+        android:backgroundTint="#EB09912C"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

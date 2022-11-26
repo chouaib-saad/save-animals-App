@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="false"
+        android:title=" "/>
+    <item android:enabled="false"
+        android:title=" "/>
+    <item android:enabled="false"
+        android:title=" "/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/accuil" />
+        <item
+            android:id="@+id/veterenaires"
+            android:icon="@drawable/ic_location"
+            android:title="@string/v_t_rinaire_le_plus_proche" />
+        <item
+            android:id="@+id/conseils"
+            android:icon="@drawable/ic_facts"
+            android:title="@string/conseils" />
+        <item
+            android:id="@+id/organismes"
+            android:icon="@drawable/ic_foundation"
+            android:title="@string/organismes_sociaux" />
+        <item
+            android:id="@+id/camp_daide"
+            android:icon="@drawable/ic_event"
+            android:title="@string/campagnes_d_aide" />
+        <item
+            android:id="@+id/numeros_urg"
+            android:icon="@drawable/ic_medical_services"
+            android:title="@string/num_ros_d_urgence" />
+    </group>
+
+        <item android:title="@string/profil">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="@string/connexion2" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_user_name"
+                    android:title="@string/mon_profil" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/deconnexion" />
+                </group>
+            </menu>
+        </item>
+
+    <item android:title="@string/signaler_un_probl_me">
+        <menu>
+            <item
+                android:id="@+id/contactez_nous"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/contactez_nous" />
+        </menu>
+
+    </item>
+
+</menu>

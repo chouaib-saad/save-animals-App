@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".items.ContactNs"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/pbar"
+        android:background="@color/colorPrimary"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginTop="-3dp"
+        android:progress="20"
+        android:visibility="gone"/>
+
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pbar" />
+
+</RelativeLayout>

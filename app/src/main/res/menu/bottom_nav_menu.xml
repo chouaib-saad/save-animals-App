@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/protection"
+        android:title="Protection"
+        android:icon="@drawable/ic_protection"
+        app:cnb_backgroundColor="#260C32EF"
+        app:cnb_textColor="#880C32EF"
+        app:cnb_iconColor="#880C32EF"
+        />
+    <item
+        android:id="@+id/gestes"
+        android:title="Gestes"
+        android:icon="@drawable/ic_gestes"
+        app:cnb_backgroundColor="#264EB615"
+        app:cnb_iconColor="#D74EB615"
+        app:cnb_textColor="#D74EB615"/>
+    <item
+        android:id="@+id/avantages"
+        android:title="Avantages"
+        android:icon="@drawable/ic_advantages"
+        app:cnb_iconColor="#C1FF3232"
+        app:cnb_backgroundColor="#26FF3232"
+        app:cnb_textColor="#C1FF3232"/>
+</menu>
